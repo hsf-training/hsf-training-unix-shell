@@ -100,11 +100,12 @@ $
 ```
 
 The shell typically uses `$ ` as the prompt, but may use a different symbol.
-In the examples for this lesson, we'll show the prompt as `$ `.
+In the examples for this lesson, we'll show the prompt as `! ` (chosen since it means something for our website formatter).
+
 Most importantly, *do not type the prompt* when typing commands.
 Only type the command that follows the prompt.
 This rule applies both in these lessons and in lessons from other sources.
-Also note that after you type a command, you have to press the <kbd>Enter</kbd> key to execute it.
+Also note that after you type a command, you have to press the `Enter` key to execute it.
 
 The prompt is followed by a **text cursor**, a character that indicates the position where your
 typing will appear.
@@ -112,7 +113,7 @@ The cursor is usually a flashing or solid block, but it can also be an underscor
 You may have seen it in a text editor program, for example.
 
 Note that your prompt might look a little different. In particular, most popular shell
-environments by default put your user name and the host name before the `$`. Such
+environments by default put your user name and the host name. Such
 a prompt might look like, e.g.:
 
 ```bash
@@ -131,10 +132,7 @@ This command will list the contents of the current directory:
 ! ls
 ```
 
-```output
-Desktop     Downloads   Movies      Pictures
-Documents   Library     Music       Public
-```
+Your output will likely look different, this command is running inside the website's filesystem.
 
 :::::::::::::::::::::::::::::::::::::::::  callout
 
@@ -143,12 +141,8 @@ Documents   Library     Music       Public
 If the shell can't find a program whose name is the command you typed, it
 will print an error message such as:
 
-```bash
-$ ks
-```
-
-```output
-ks: command not found
+```{code-cell} bash
+! ks
 ```
 
 This might happen if the command was mis-typed or if the program corresponding to that command

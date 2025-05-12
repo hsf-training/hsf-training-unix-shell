@@ -128,11 +128,19 @@ character itself and we will see later why.
 So let's try our first command, `ls`, which is short for listing.
 This command will list the contents of the current directory:
 
+<details>
+<summary>Ignore this</summary>
+```{code-cell} bash
+! ls /
+! cd /Users/nelle
+```
+</details>
+
 ```{code-cell} bash
 ! ls
 ```
 
-Your output will likely look different, this command is running inside the website's filesystem.
+Your output may look different, this command is running inside the website's filesystem.
 
 :::::::::::::::::::::::::::::::::::::::::  callout
 

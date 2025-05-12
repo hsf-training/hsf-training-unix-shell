@@ -88,8 +88,8 @@ Let's get started.
 # this code is just to make sure
 # that bash is working properly for website display purposes
 # you can safely ignore it :)
-which bash
-bash --version
+!which bash
+!bash --version
 ```
 
 When the shell is first opened, you are presented with a **prompt**,
@@ -127,8 +127,8 @@ character itself and we will see later why.
 So let's try our first command, `ls`, which is short for listing.
 This command will list the contents of the current directory:
 
-```bash
-$ ls
+```{code-cell} bash
+! ls
 ```
 
 ```output

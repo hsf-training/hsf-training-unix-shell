@@ -8,9 +8,9 @@ jupytext:
     format_version: 0.13
     jupytext_version: 1.11.5
 kernelspec:
-  display_name: Python 3
-  language: python
-  name: python3
+  display_name: Bash
+  language: shell
+  name: bash
 ---
 
 # Introducing the Shell
@@ -84,12 +84,12 @@ to tackle a wide range of scientific questions and computational challenges.
 
 Let's get started.
 
-```{code-cell} bash
+```{code-cell}
 # this code is just to make sure
 # that bash is working properly for website display purposes
 # you can safely ignore it :)
-!which bash
-!bash --version
+which bash
+bash --version
 ```
 
 When the shell is first opened, you are presented with a **prompt**,

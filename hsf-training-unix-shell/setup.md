@@ -21,10 +21,6 @@ and scripts, you probably want to explore the next lesson:
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
----
-title: Setup
----
-
 ## Download files
 
 You need to download some files to follow this lesson.

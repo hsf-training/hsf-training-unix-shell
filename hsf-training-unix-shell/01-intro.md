@@ -85,6 +85,10 @@ to tackle a wide range of scientific questions and computational challenges.
 Let's get started.
 
 ```{code-cell}
+# this code is just to make sure
+# that bash is working properly for website display purposes
+# you can safely ignore it :)
+python -m bash_kernel.install
 bash --version
 ```
 

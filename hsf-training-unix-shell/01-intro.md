@@ -8,9 +8,9 @@ jupytext:
     format_version: 0.13
     jupytext_version: 1.11.5
 kernelspec:
-  display_name: Python 3
-  language: python
-  name: python3
+  display_name: bash
+  language: bash
+  name: bash
 ---
 
 # Introducing the Shell

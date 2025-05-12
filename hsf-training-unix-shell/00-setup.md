@@ -67,7 +67,7 @@ try an online search for: Unix shell [your computer model] [your operating syste
 
 :::::::::::: solution
 
-### Windows {#windows}
+### Windows
 
 Computers with Windows operating systems do not automatically have a Unix Shell program
 installed.
@@ -89,7 +89,7 @@ from those shown in the lesson or presented in the workshop.
 
 :::::::::::: solution
 
-### MacOS {#macos}
+### MacOS
 
 For a Mac computer running macOS Mojave or earlier releases, the default Unix Shell is Bash.
 For a Mac computer running macOS Catalina or later releases, the default Unix Shell is Zsh.
@@ -114,7 +114,7 @@ you can run it by opening a terminal and typing `bash`.
 
 :::::::::::: solution
 
-### Linux {#linux}
+### Linux
 
 The default Unix Shell for Linux operating systems is usually Bash.
 On most versions of Linux, it is accessible by running the

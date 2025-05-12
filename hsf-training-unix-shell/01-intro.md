@@ -8,9 +8,9 @@ jupytext:
     format_version: 0.13
     jupytext_version: 1.11.5
 kernelspec:
-  display_name: bash
-  language: bash
-  name: bash
+  display_name: Python 3
+  language: python
+  name: python3
 ---
 
 # Introducing the Shell
@@ -88,6 +88,8 @@ Let's get started.
 # this code is just to make sure
 # that bash is working properly for website display purposes
 # you can safely ignore it :)
+%%bash
+which bash
 bash --version
 ```
 

@@ -141,8 +141,12 @@ Your output will likely look different, this command is running inside the websi
 If the shell can't find a program whose name is the command you typed, it
 will print an error message such as:
 
-```{code-cell} bash
+```bash
 ! ks
+```
+
+```output
+ks: command not found
 ```
 
 This might happen if the command was mis-typed or if the program corresponding to that command

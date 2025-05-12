@@ -22,5 +22,5 @@ and scripts, you probably want to explore the next lesson:
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-```{tableofcontents}
-```
+[comment]: <> ```{tableofcontents}
+[comment]: <> ```

@@ -129,9 +129,8 @@ So let's try our first command, `ls`, which is short for listing.
 This command will list the contents of the current directory:
 
 ```{code-cell} bash
-:tags: [remove-cell]  # setup steps, invisible to user
-! ls /
-! cd /Users/nelle
+# :tags: [remove-cell]  # setup steps, invisible to user
+! cd filesystem/Users/nelle
 ```
 
 ```{code-cell} bash

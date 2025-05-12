@@ -45,12 +45,8 @@ our **current working directory**. Commands mostly read and write files in the
 current working directory, i.e. 'here', so knowing where you are before running
 a command is important. `pwd` shows you where you are:
 
-```bash
-$ pwd
-```
-
-```output
-/Users/nelle
+```{code-cell} bash
+! pwd
 ```
 
 Here,

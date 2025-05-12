@@ -88,7 +88,6 @@ Let's get started.
 # this code is just to make sure
 # that bash is working properly for website display purposes
 # you can safely ignore it :)
-python -m bash_kernel.install
 bash --version
 ```
 

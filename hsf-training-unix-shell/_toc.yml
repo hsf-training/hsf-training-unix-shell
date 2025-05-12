@@ -2,8 +2,12 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: setup
+root: 00-setup
 chapters:
-- file: introducing-the-shell
-- file: notebooks
-- file: markdown-notebooks
+- file: 01-intro
+- file: 02-filedir
+- file: 03-create
+- file: 04-pipefilter
+- file: 05-loop
+- file: 06-script
+- file: 07-find

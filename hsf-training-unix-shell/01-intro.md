@@ -128,13 +128,11 @@ character itself and we will see later why.
 So let's try our first command, `ls`, which is short for listing.
 This command will list the contents of the current directory:
 
-<details>
-<summary>Ignore this</summary>
 ```{code-cell} bash
+:tags: [remove-cell]  # setup steps, invisible to user
 ! ls /
 ! cd /Users/nelle
 ```
-</details>
 
 ```{code-cell} bash
 ! ls

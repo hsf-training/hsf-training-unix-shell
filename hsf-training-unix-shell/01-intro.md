@@ -84,6 +84,10 @@ to tackle a wide range of scientific questions and computational challenges.
 
 Let's get started.
 
+```{code-cell}
+bash --version
+```
+
 When the shell is first opened, you are presented with a **prompt**,
 indicating that the shell is waiting for input.
 

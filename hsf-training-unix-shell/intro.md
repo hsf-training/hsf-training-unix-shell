@@ -137,6 +137,3 @@ you can run it by opening a terminal and typing `bash`.
 [kde-konsole]: https://konsole.kde.org/
 [xterm]: https://en.wikipedia.org/wiki/Xterm
 
-
-[comment]: <> ```{tableofcontents}
-[comment]: <> ```

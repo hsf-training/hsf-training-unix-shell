@@ -84,14 +84,6 @@ to tackle a wide range of scientific questions and computational challenges.
 
 Let's get started.
 
-```{code-cell}
-# this code is just to make sure
-# that bash is working properly for website display purposes
-# you can safely ignore it :)
-which bash
-bash --version
-```
-
 When the shell is first opened, you are presented with a **prompt**,
 indicating that the shell is waiting for input.
 
@@ -100,7 +92,7 @@ $
 ```
 
 The shell typically uses `$ ` as the prompt, but may use a different symbol.
-In the examples for this lesson, we'll show the prompt as `! ` (chosen since it means something for our website formatter).
+In the examples for this lesson, we'll typically show the prompt as `! ` (chosen since it means something for our website formatter).
 
 Most importantly, *do not type the prompt* when typing commands.
 Only type the command that follows the prompt.
@@ -120,16 +112,19 @@ a prompt might look like, e.g.:
 nelle@localhost $
 ```
 
-The prompt might even include more than this. Do not worry if your prompt is not
-just a short `$ `. This lesson does not depend on this additional information and it
-should also not get in your way. The only important item to focus on is the `$ `
+The prompt might even include more than this. Do not worry if your prompt is longer than shown here. This lesson does not depend on this additional information and it
+should also not get in your way. The only important item to focus on is the
 character itself and we will see later why.
 
 So let's try our first command, `ls`, which is short for listing.
 This command will list the contents of the current directory:
 
-```{code-cell} bash
-# :tags: [remove-cell]  # setup steps, invisible to user
+```{code-cell} website setup code, ignore this
+{
+    "tags": [
+        "hide-input",
+    ]
+}
 ! cd filesystem/Users/nelle
 ```
 

@@ -28,7 +28,7 @@ kernelspec:
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Background
+## Background
 
 Humans and computers commonly interact in many different ways, such as through a keyboard and mouse,
 touch screen interfaces, or using speech recognition systems.
@@ -50,7 +50,7 @@ With the proper commands, the shell can repeat tasks with or without some modifi
 as many times as we want.
 Using the shell, the task in the literature example can be accomplished in seconds.
 
-### The Shell
+## The Shell
 
 The shell is a program where users can type commands.
 With the shell, it's possible to invoke complicated programs like climate modeling software

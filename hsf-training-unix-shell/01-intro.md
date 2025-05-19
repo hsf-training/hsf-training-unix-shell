@@ -28,6 +28,18 @@ kernelspec:
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+```{code-cell}
+:tags: [hide-cell]
+
+# website setup code, ignore this
+
+! ls
+! cd filesystem
+! ls
+! cd filesystem/Users/nelle
+! ls
+```
+
 ### Background
 
 Humans and computers commonly interact in many different ways, such as through a keyboard and mouse,
@@ -118,14 +130,6 @@ character itself and we will see later why.
 
 So let's try our first command, `ls`, which is short for listing.
 This command will list the contents of the current directory:
-
-```{code-cell}
-:tags: [hide-input]
-
-# website setup code, ignore this
-
-! cd filesystem/Users/nelle
-```
 
 ```{code-cell} bash
 ! ls

@@ -28,13 +28,6 @@ kernelspec:
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-```{code-cell}
-:tags: [hide-cell]
-
-# website setup code, ignore this
-! cd filesystem/Users/nelle
-```
-
 ### Background
 
 Humans and computers commonly interact in many different ways, such as through a keyboard and mouse,
@@ -127,7 +120,6 @@ So let's try our first command, `ls`, which is short for listing.
 This command will list the contents of the current directory:
 
 ```{code-cell} bash
-! pwd
 ! ls
 ```
 

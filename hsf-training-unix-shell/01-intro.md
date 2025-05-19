@@ -36,7 +36,9 @@ kernelspec:
 ! ls
 ! cd filesystem
 ! ls
-! cd filesystem/Users/nelle
+! cd Users
+! ls
+! cd nelle
 ! ls
 ```
 

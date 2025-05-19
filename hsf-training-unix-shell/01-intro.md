@@ -123,7 +123,8 @@ This command will list the contents of the current directory:
     "tags": [
         "hide-input",
     ]
-} website setup code, ignore this
+}
+# website setup code, ignore this
 
 ! cd filesystem/Users/nelle
 ```

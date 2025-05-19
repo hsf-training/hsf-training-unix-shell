@@ -32,14 +32,7 @@ kernelspec:
 :tags: [hide-cell]
 
 # website setup code, ignore this
-
-! ls
-! cd filesystem
-! ls
-! cd Users
-! ls
-! cd nelle
-! ls
+! cd filesystem/Users/nelle
 ```
 
 ### Background
@@ -134,6 +127,7 @@ So let's try our first command, `ls`, which is short for listing.
 This command will list the contents of the current directory:
 
 ```{code-cell} bash
+! pwd
 ! ls
 ```
 

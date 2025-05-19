@@ -119,7 +119,7 @@ character itself and we will see later why.
 So let's try our first command, `ls`, which is short for listing.
 This command will list the contents of the current directory:
 
-```{code-cell} bash
+```{code-cell}
 ! ls
 ```
 

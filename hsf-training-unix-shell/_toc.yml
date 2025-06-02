@@ -4,7 +4,7 @@
 format: jb-book
 root: 00-setup
 chapters:
-- file: 01-intro-notebook
+- file: 01-intro
 - file: 02-filedir
 - file: 03-create
 - file: 04-pipefilter

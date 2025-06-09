@@ -1,6 +1,6 @@
 # HSF Unix Shell Tutorial
 
-HSF unix shell lessons
+Lessons taken from the [Carpentries tutorial](https://swcarpentry.github.io/shell-novice/index.html), adapted to the JupyterBook format.
 
 ## Usage
 

@@ -1,10 +1,16 @@
-Copyright notice: This lesson is a derivative of the [carpentries](https://swcarpentry.github.io/shell-novice/index.html) lesson on the same topic. Currently the main change is that we use jupyterbook.
-
 # Summary and Setup
 
 The Unix shell has been around longer than most of its users have been alive. It has survived because it’s a powerful tool that allows users to perform complex and powerful tasks, often with just a few keystrokes or lines of code. It helps users automate repetitive tasks and easily combine smaller tasks into larger, more powerful workflows.
 
 Use of the shell is fundamental to a wide range of advanced computing tasks, including high-performance computing. These lessons will introduce you to this powerful tool.
+
+```{admonition} HSF Training
+
+This training module is part of the [HSF Training Center](https://hsf-training.org/training-center/), a series of training modules that serves HEP newcomers the software skills needed as they enter the field, and in parallel, instill best practices for writing software.
+```
+
+Copyright notice: This lesson is a derivative of the [carpentries](https://swcarpentry.github.io/shell-novice/index.html) lesson on the same topic. Currently, the main change is that we use jupyterbook.
+
 
 ::::::::::::::::::::::::::::::::::::::::::  prereq
 
@@ -134,4 +140,3 @@ you can run it by opening a terminal and typing `bash`.
 [gnome-terminal]: https://help.gnome.org/users/gnome-terminal/stable/
 [kde-konsole]: https://konsole.kde.org/
 [xterm]: https://en.wikipedia.org/wiki/Xterm
-

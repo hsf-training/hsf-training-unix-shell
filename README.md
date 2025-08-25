@@ -10,9 +10,10 @@ If you'd like to develop and/or build the HSF Unix Shell Tutorial book, you shou
 
 1. Clone this repository
 2. Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
-3. (Optional) Edit the books source files located in the `hsf-training-unix-shell/` directory
-4. Run `jupyter-book clean hsf-training-unix-shell/` to remove any existing builds
-5. Run `jupyter-book build hsf-training-unix-shell/`
+3. Install the bash kernel with `python -m bash_kernel.install`
+4. (Optional) Edit the books source files located in the `hsf-training-unix-shell/` directory
+5. Run `jupyter-book clean hsf-training-unix-shell/` to remove any existing builds
+6. Run `jupyter-book build hsf-training-unix-shell/`
 
 A fully-rendered HTML version of the book will be built in `hsf-training-unix-shell/_build/html/`.
 

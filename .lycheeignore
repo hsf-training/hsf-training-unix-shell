@@ -1,0 +1,4 @@
+# www.gnu.org answers lychee with 429 Too Many Requests (also when its links
+# are checked one at a time), and different gnu.org links fail on each run.
+# All 10 gnu.org links in the lesson load fine in a browser.
+^https?://(www\.)?gnu\.org/

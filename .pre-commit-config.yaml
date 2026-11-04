@@ -1,1 +1,29 @@
-repos: []
+ci:
+  autoupdate_schedule: monthly
+  autoupdate_commit_msg: "chore(deps): update pre-commit hooks"
+  autofix_commit_msg: "style: pre-commit fixes"
+
+# The fake filesystem and the zip are the lesson's exercise data. The notebooks
+# run commands on them, so they must stay byte-for-byte as they are.
+exclude: ^hsf-training-unix-shell/(filesystem|data)/
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-added-large-files
+      - id: check-case-conflict
+      - id: check-merge-conflict
+      - id: check-symlinks
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+      - id: trailing-whitespace
+
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.4.3
+    hooks:
+      - id: codespell
+        args: ["-I", "codespell.txt"]
+        # Text in SVG figures is split into fragments that look like typos.
+        exclude: \.svg$

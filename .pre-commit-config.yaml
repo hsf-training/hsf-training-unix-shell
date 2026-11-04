@@ -1,5 +1,7 @@
 ci:
   autoupdate_schedule: monthly
+  autoupdate_commit_msg: "chore(deps): update pre-commit hooks"
+  autofix_commit_msg: "style: pre-commit fixes"
 
 # The fake filesystem and the zip are the lesson's exercise data. The notebooks
 # run commands on them, so they must stay byte-for-byte as they are.
